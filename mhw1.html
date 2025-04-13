@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MiniHomework1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mhw1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="photo-list.js" defer></script>
+        <script src="mhw1.js" defer></script>
+    </head>
+
+    <body>
+        <div id="sidebar">
+            <h2 class="sidebar-item-">Le tue playlist</h2>
+            <div class="sidebar-item">Autunno🍂🌰</div>
+            <div class="sidebar-item">Amore🌹🌌</div>
+            <div class="sidebar-item">Inverno🌃❄️</div>
+            <div class="sidebar-item">Motivazione🔥💪</div>
+        </br>
+        </br>
+            <h2 class="sidebar-item-">Iscrizioni</h2>
+            <div class="sidebar-item">Gemitaiz🔴</div>
+            <div class="sidebar-item">Amici🔴</div>
+            <div class="sidebar-item">Briga🔴</div>
+            <div class="sidebar-item">Irama🔴</div>
+            <div id="loghetto"></div>
+        </div>
+        
+        <div id="main-content">
+        <nav id="navbar">
+            <img src="logo.png" class="logo">
+            <a href class="navitem">Home</a>
+            <a href class="navitem">Esplora</a>
+            <a href class="navitem">Raccolta</a>
+            <a href class="navitem">Upgrade</a>
+            <div id="barra">
+                <input type="text" class="navitem" placeholder="Cerca...">
+                <button><img src="lente.png" id="lente"></button>
+
+            </div>
+            <img src="profilo.png" id="profilo">
+        </nav>
+
+        <header id="header">
+            <h1 id="titolo">Ascolta qui</h1>
+            <h2 id="sottotitolo">Sempre nuova musica in arrivo per te</h2>
+        </header>
+        
+            <h1 id="uscite">Ultime uscite</h1>
+            <section id="album-view">
+
+            </section>
+
+            <section id="modal-view" class="hidden">
+
+            </section>
+
+
+
+
+
+        <section id="section">
+                <div class="card">
+                    <img src="music1.png" data-info="Informazioni su Music 1">
+                    <a href="song1.mp3" class="overlay">Riproduci</a>
+                </div>
+
+                <div class="card">
+                    <img src="music2.png" data-info="Informazioni su Music 2">
+                    <a href="song2.mp3" class="overlay">Riproduci</a>
+                </div>
+
+                <div class="card">
+                    <img src="music3.png" data-info="Nel male e nel bere (Briga)">
+                    <a href="song3.mp3" class="overlay">Riproduci</a>
+                </div>
+
+                <div class="card">
+                    <img src="music4.png" data-info="Informazioni su Music 4">
+                    <a href="song4.mp3" class="overlay">Riproduci</a>
+                </div>
+        </section>
+
+        <header id="header1">
+            <h1 id="titolo1">Album Consigliati</h1>
+        </header>
+        
+        <section id="album">
+            <div class="copertine">
+                <img src="Briga.png">
+                <p class="overlay">Briga</p>
+            </div>
+
+            <div class="copertine">
+                <img src="Irama.png">
+                <p class="overlay">Irama</p>
+            </div>
+
+            <div class="copertine">
+                <img src="Tananai.png">
+                <p class="overlay">Tananai</p>
+            </div>
+
+            <div class="copertine">
+                <img src="Blanco.png">
+                <p class="overlay">Blanco</p>
+            </div>
+    </section>
+
+    <header id="header2">
+        <h1 id="titolo2">Abbonamenti</h1>
+    </header>
+
+    <section id="abbonamenti">
+        <div class="abbonamento">
+            <h2>Basic</h2>
+        </br>
+            <p>0€ per 1 mese</p></br>
+            <p>Dopo 10,99€ al mese</p></br>
+            <p>Ascolta musica senza limiti</p></br>
+            <p>Ascolta musica senza pubblicità</p></br>
+            <button>Inizia la prova gratuita</button>
+        </div>
+
+        <div class="abbonamento">
+            <h2>Student</h2>
+        </br>
+            <p>0€ per 1 mese</p></br>
+            <p>Dopo 5,99€ al mese</p></br>
+            <p>Ascolta musica senza limiti</p></br>
+            <p>Ascolta musica senza pubblicità</p></br>
+            <button>Inizia la prova gratuita</button>
+        </div>
+
+        <div class="abbonamento">
+            <h2>Family (5 Account)</h2>
+        </br>
+            <p>0€ per 1 mese</p></br>
+            <p>Dopo 17,99€ al mese</p></br>
+            <p>Ascolta musica senza limiti</p></br>
+            <p>Ascolta musica senza pubblicità</p></br>
+            <button>Inizia la prova gratuita</button>
+        </div>
+    </section>
+
+        <footer id="footer">
+            <div id="commento">
+                <input type="text" placeholder="Assistenza">
+                <input type="text" placeholder="Donazioni">
+                <input type="text" placeholder="Lascia un commento...">
+            </div>
+        </footer>
+        
+        <footer id="footer_mobile">
+            <a href class="item">Home</a>
+            <a href class="item">Esplora</a>
+            <a href class="item">Raccolta</a>
+            <a href class="item">Upgrade</a>
+        </footer>
+    </div>
+    </body>
+</html>
+
+
